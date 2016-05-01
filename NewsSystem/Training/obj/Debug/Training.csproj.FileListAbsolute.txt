@@ -1,0 +1,4 @@
+D:\GIT\NS\NewsSystem\Training\bin\Training.dll
+D:\GIT\NS\NewsSystem\Training\bin\Training.pdb
+D:\GIT\NS\NewsSystem\Training\obj\Debug\Training.dll
+D:\GIT\NS\NewsSystem\Training\obj\Debug\Training.pdb
