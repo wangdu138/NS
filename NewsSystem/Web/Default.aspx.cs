@@ -10,7 +10,9 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        
+        GridView1.DataSource = new CategoryDAO().SelectAll();
+        GridView1.DataBind();
+
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
