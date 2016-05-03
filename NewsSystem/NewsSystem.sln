@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "Training\Training.csproj", "{8616CD7E-9550-4388-B02F-158D465A7252}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web\", "{1BF6D135-DB45-4DCE-A0A2-C288E947735A}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web", "{1BF6D135-DB45-4DCE-A0A2-C288E947735A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{832863D4-655D-4D45-B7A5-C25903C06FED}|DAL.dll;"
