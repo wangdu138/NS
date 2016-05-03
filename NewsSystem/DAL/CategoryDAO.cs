@@ -17,6 +17,13 @@ namespace DAL
             sqlhelper = new SQLHelper();
         }
 
+        public DataTable SelectAll()
+        {
+            DataTable dt = new DataTable();
+            string sql = "select * from category";
+            dt = sqlhelper.ExecuteQuery(sql);
+            return dt;
+        }
 
         /// <summary>
         /// 增加分类

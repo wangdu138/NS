@@ -9,8 +9,9 @@
     <form id="form1" runat="server">
     <div>
         <asp:TextBox ID="TextBox1" runat="server">
-        </asp:TextBox><asp:Button ID="Button1" runat="server" Text="增加新闻类别" 
-            onclick="Button1_Click" />
+        </asp:TextBox><asp:Button ID="Button1" runat="server" Text="增加新闻类别" OnClick="Button1_Click" />
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
     </div>
     </form>
 </body>
